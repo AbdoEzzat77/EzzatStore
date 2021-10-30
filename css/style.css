@@ -1,0 +1,89 @@
+body{
+    font-family: 'Rubik';
+  background-color: black;
+}
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.657)), url(../images/2102909.jpg)
+}
+.navbar{
+    border-bottom: 2px solid orange;
+}
+.First-screen{
+    height: 120vh;
+}
+.titles{
+    padding-left: 40%;
+}
+.product{
+    display: inline-flex;
+}
+.product:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.02,1.02) ;
+    transform: scale(1.2,1.2) ;
+}
+.Suit,.Suit2,.Suit3{
+    max-width: 250px;
+    height: 325px;
+    margin-left: 32px;
+    margin-top:64px;
+    display: block;
+}
+.Suit2{
+    height: 325px;
+}
+.Suit3{
+    height: 325px;
+}
+.price{
+    color: orange;
+    display: block;
+    font-size: 30px;
+    margin-top: 390px;
+    margin-right: 70px  ;
+}
+footer{
+    height: 120px;
+    margin-top: 20px;
+    padding: 50px 50px;
+    background-color: #333;
+}
+footer p{
+   color: orange;
+   text-align: center;
+   margin-top: 5px;
+}
+.footer-nav{
+    list-style: none;
+   }
+   .footer-nav li{
+    display: inline-block;
+    margin-left: 10px;
+   }
+   .footer-nav li a{
+    color:orange; 
+    text-decoration: none;
+   }
+   .footer-nav li a:hover{
+    color: white; 
+    text-decoration: underline;
+   }
+   
+
+.social-nav{
+    list-style: none;
+    float: right;
+   }
+   .social-nav li{
+    display: inline-block;
+    margin-left: 10px;
+   }
+   .social-nav li a{
+    color: orange; 
+    text-decoration: none;
+   }
+   .social-nav li a:hover{
+    color: white; 
+    text-decoration: underline;
+   }
